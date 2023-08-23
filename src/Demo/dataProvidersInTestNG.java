@@ -65,6 +65,7 @@ public class dataProvidersInTestNG {
 		myData [1][2] ="Test111111";
 		
 		return myData;
+	
 		
 	 }
 	
@@ -76,8 +77,10 @@ public class dataProvidersInTestNG {
 		System.out.println("Username is :" + username);
 		System.out.println("Password is :" + password);
 		System.out.println("Password1 is :" + password1);
-		
+		System.out.println("Password1 is :" + password);
 		}
+		
+		
 	 
 		@Test(dataProvider="Testdata1")
 		public void method1(String username1, String password1, String password11)
